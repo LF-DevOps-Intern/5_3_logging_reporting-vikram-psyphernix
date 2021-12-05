@@ -2,66 +2,49 @@
  
  - Nagios:
  
-    Nagios, also known as Nagios Core, is an open-souce and free computer software, written in C, available to monitor systems, networks,
-    and IT infrastructures. It provides monitoring and alerting services for servers, routers, switches, applications, and other services.
-    Nagios can audit network-related events and can help to automate the distribution of alerts. It can even be configured to runn scripts
-    if a certain scenario is met, allowing to automate fixing of a problem. For network auditing, it allows filtering log data based on the
-    geographic location where it data originates. Nagios is preferably used in monitoring core networking like monitoring routers and switches
-    in ISPs as it allows to build a comprehensive dashboards with mapping technology to undertand how network traffic is flowing.
+    Nagios, also known as Nagios Core, is an open-souce and free computer software, written in C, available to monitor systems, networks, and IT infrastructures. It provides    monitoring and alerting services for servers, routers, switches, applications, and other services. Nagios can audit network-related events and can help to automate the distribution of alerts. It can even be configured to runn scripts if a certain scenario is met, allowing to automate fixing of a problem. For network auditing, it allows filtering log data based on the geographic location where it data originates. Nagios is preferably used in monitoring core networking like monitoring routers and switches in ISPs as it allows to build a comprehensive dashboards with mapping technology to undertand how network traffic is flowing.
     
  - Graybox:
     
-    Graybox is another logging tool that is preferably used by System administ00rators to monitor logs incase of website monitoring. It is open-source
-    tools which was started back in back in 2011.  It is designed to be a centralized log management system that receives data streams from various
-    servers or endpoints and allows you to browse or analyze that information quickly. It is easily scalable as it can handle projects that starts
-    and grow larger and it can handle terabytes of log data each day. It also can balance loads across a network of backend servers. It allows system
-    adminstrators to run multiple-threads searches at onc, so one can analyse serveral potential threats at once. It has built-in fault tolerance.
+    Graybox is another logging tool that is preferably used by System administ00rators to monitor logs incase of website monitoring. It is open-source tools which was started back in back in 2011.  It is designed to be a centralized log management system that receives data streams from various servers or endpoints and allows you to browse or analyze that information quickly. It is easily scalable as it can handle projects that starts and grow larger and it can handle terabytes of log data each day. It also can balance loads across a network of backend servers. It allows system adminstrators to run multiple-threads searches at onc, so one can analyse serveral potential threats at once. It has built-in fault tolerance.
     
  - LOGalyze:
     
-    LOGalyze is antoher open source data logging and visualiztion tool used by sys admins and security experts to help them in managing the server logs
-    to get useful information from that. It is designed to work as a big pipeline in which multiple servers, network devices, and applications can feed
-    data using the SOAP method. It comes with frontend where admin can analyse data and export them into different standard formats like CSV, PDF, etc.
-    It is easy to install and configure and can be configured within an hour. It has inbuilt functionality to gather data in formats required by different
-    compliance. For an instance, it can run HIPPA reports to ensure an organization is adhering to health regulations and other compliant.
+    LOGalyze is antoher open source data logging and visualiztion tool used by sys admins and security experts to help them in managing the server logs to get useful information from that. It is designed to work as a big pipeline in which multiple servers, network devices, and applications can feed data using the SOAP method. It comes with frontend where admin can analyse data and export them into different standard formats like CSV, PDF, etc. It is easy to install and configure and can be configured within an hour. It has inbuilt functionality to gather data in formats required by different compliance. For an instance, it can run HIPPA reports to ensure an organization is adhering to health regulations and other compliant.
     
  - the ELK (Elastic Stack):
  
-    Elsatic Stack, also known as the ELK Stack, is one of the most popular open-source software stack among IT organizations who needs to process large
-    amount if data to analyse it. This stack is made up of three products - Elastisearch< Kibana, and Logstash.
-       
-       Elasticsearch is used to search specific data from large set of data using different query languages. It is faster than other tools available in
-    the market. It can handle petabytes of data and can be expande into clusters of hudreads of server nodes.
-    
-       Kibana is data visualization tool that can run along with Elasticsearch to allow users to analyse data and build powerful reports. On installing
-    the Kibana engine on server cluster, it provides access to an interface which shows graphs, statistics, and even animations based on data.
-    
-       Logstash is open-source, server-side data processing pipeline that allows to pipeline into elasticsearch database. It can be integrated with
-    different coding languages and APIs to fed information from websites and mobile applications into Elastic Stalk srarch engine.
+    Elsatic Stack, also known as the ELK Stack, is one of the most popular open-source software stack among IT organizations who needs to process large amount if data to analyse it. This stack is made up of three products - Elastisearch< Kibana, and Logstash. Elasticsearch is used to search specific data from large set of data using different query languages. It is faster than other tools available in the market. It can handle petabytes of data and can be expande into clusters of hudreads of server nodes. Kibana is data visualization tool that can run along with Elasticsearch to allow users to analyse data and build powerful reports. On installing the Kibana engine on server cluster, it provides access to an interface which shows graphs, statistics, and even animations based on data. Logstash is open-source, server-side data processing pipeline that allows to pipeline into elasticsearch database. It can be integrated with different coding languages and APIs to fed information from websites and mobile applications into Elastic Stalk srarch engine.
     
  - Datadog:
     
-    Datadog is a freemium data logging and visualization platform that enables IT teams to look at analytics and other features. It allows users to view
-    all logs in a single interface. It also helps DevOps teams to deal with outages that may happen.  
+    Datadog is a freemium data logging and visualization platform that enables IT teams to look at analytics and other features. It allows users to view all logs in a single interface. It also helps DevOps teams to deal with outages that may happen.  
     
 2. **10 best practises when logging:**
 
    (a) Set a strategy
+   
    (b) Structurre log data
+   
    (c) Separate and centralize log data
+   
    (d) Practise end-to-end logging
+   
    (e) Correlate data sources
+   
    (f) Use unique identifiers
+   
    (g) Add context
+   
    (h) Perform real-time monitoring
+   
    (i) Use logs to identify key trends
+   
    (j) Empower the entire team
 
    **Log formatting is necessary because:**
    
-   Log formatting is necessary because unstrucured data can become burden for a IT team to analyse as logs generated by websites and mobile applications can be
-   massive and hard to analyse . Formatting log in specific format helps to analyse data with different tools with a ease and make sense out of it. Formatting
-   data can be easily parsed, where it becomes hard to query data from unformatted logs.
+   Log formatting is necessary because unstrucured data can become burden for a IT team to analyse as logs generated by websites and mobile applications can be massive and hard to analyse . Formatting log in specific format helps to analyse data with different tools with a ease and make sense out of it. Formatting data can be easily parsed, where it becomes hard to query data from unformatted logs.
       
 3. **Creating a file:**
 
