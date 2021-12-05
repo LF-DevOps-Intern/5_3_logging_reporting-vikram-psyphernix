@@ -49,9 +49,23 @@
 3. **Creating a file:**
 
           $ touch Log_alert
- 
 
-**Steps to log events whenever a someone performs some action(read, write, execute) on that file:**
+    **Steps to log events whenever a someone performs some action(read, write, execute) on that file:**
+    
+Auditd can be used to log events related to certain files. To install it:
+          
+          $ sudo apt update
+          $ sudo apt install auditd
+          
+Now, configuration file of auditd needs to be modified to monitor log:
+          
+          $ sudo vim /etc/audit.rules.d/audit.rules
+          
+Logs will be recorded in ***/var/log/audit.audit.log***
+
+To look log:
+        
+          $ ausearch -k KeyofLog
 
 4. **Installing logstash:**
 
@@ -59,3 +73,5 @@
 **https://github.com/elastic/examples/blob/master/Common%20Data%20Formats/nginx_logs/nginx_logs , parse the logs using logstash.
 The parsed output must contain the geogriphical information like country, state etc. that the request is originating from. save 
 the parsed output to a file in your system.**
+
+***Note: All screenshots related to this assignment are in folder [Screenshot](Screenshot)***
