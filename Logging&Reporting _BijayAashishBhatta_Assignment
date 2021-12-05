@@ -1,5 +1,8 @@
 1. **Some logging and visualization tools available in the market with the preferred senario to use one over other:**
-
+ 
+ -- Nagios:
+ 
+    Nagios, also known as Nagios Core, is an open-souce and free computer software available to monitor systems, networks, and IT infrastructures. It provides monitoring and alerting services for servers, routers, switches, applications, and other services.
 
 2. **10 best practises when logging:**
 
