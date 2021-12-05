@@ -67,11 +67,15 @@ To look log:
         
           $ ausearch -k KeyofLog
 
-4. **Installing logstash:**
+4. **Installing logstash and parsing data:**
 
-
-**https://github.com/elastic/examples/blob/master/Common%20Data%20Formats/nginx_logs/nginx_logs , parse the logs using logstash.
-The parsed output must contain the geogriphical information like country, state etc. that the request is originating from. save 
-the parsed output to a file in your system.**
+           $ wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add
+           $ sudo apt-get install apt-transport-https
+           $ echo "deb https://artifacts.elastic.co/packages/7.x/apt stable main" | sudo tee -a /etc/apt/sources.list.d/elastic-7.x.list
+           $ sudo apt-get update && sudo apt-get install logstash
+           $ sudo apt install default-jdk
+           $ wget https://github.com/elastic/examples/blob/master/Common%20Data%20Formats/nginx_logs/nginx_logs
+           $ sudo vim /etc/logstash/conf.d/config.conf
+           $ sudo /usr/share/logstash/bin/logstash --path.settings /etc/logstash --path.data sensor39 -f /etc/logstash/conf.d/config.conf
 
 ***Note: All screenshots related to this assignment are in folder [Screenshot](Screenshot)***
