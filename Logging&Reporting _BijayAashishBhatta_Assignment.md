@@ -1,6 +1,6 @@
 1. **Some logging and visualization tools available in the market with the preferred senario to use one over other:**
  
- -- Nagios:
+ - Nagios:
  
     Nagios, also known as Nagios Core, is an open-souce and free computer software, written in C, available to monitor systems, networks,
     and IT infrastructures. It provides monitoring and alerting services for servers, routers, switches, applications, and other services.
@@ -9,7 +9,7 @@
     geographic location where it data originates. Nagios is preferably used in monitoring core networking like monitoring routers and switches
     in ISPs as it allows to build a comprehensive dashboards with mapping technology to undertand how network traffic is flowing.
     
- -- Graybox:
+ - Graybox:
     
     Graybox is another logging tool that is preferably used by System administ00rators to monitor logs incase of website monitoring. It is open-source
     tools which was started back in back in 2011.  It is designed to be a centralized log management system that receives data streams from various
@@ -17,7 +17,7 @@
     and grow larger and it can handle terabytes of log data each day. It also can balance loads across a network of backend servers. It allows system
     adminstrators to run multiple-threads searches at onc, so one can analyse serveral potential threats at once. It has built-in fault tolerance.
     
- -- LOGalyze:
+ - LOGalyze:
     
     LOGalyze is antoher open source data logging and visualiztion tool used by sys admins and security experts to help them in managing the server logs
     to get useful information from that. It is designed to work as a big pipeline in which multiple servers, network devices, and applications can feed
@@ -25,7 +25,7 @@
     It is easy to install and configure and can be configured within an hour. It has inbuilt functionality to gather data in formats required by different
     compliance. For an instance, it can run HIPPA reports to ensure an organization is adhering to health regulations and other compliant.
     
- -- the ELK (Elastic Stack):
+ - the ELK (Elastic Stack):
  
     Elsatic Stack, also known as the ELK Stack, is one of the most popular open-source software stack among IT organizations who needs to process large
     amount if data to analyse it. This stack is made up of three products - Elastisearch< Kibana, and Logstash.
@@ -39,7 +39,7 @@
        Logstash is open-source, server-side data processing pipeline that allows to pipeline into elasticsearch database. It can be integrated with
     different coding languages and APIs to fed information from websites and mobile applications into Elastic Stalk srarch engine.
     
- -- Datadog:
+ - Datadog:
     
     Datadog is a freemium data logging and visualization platform that enables IT teams to look at analytics and other features. It allows users to view
     all logs in a single interface. It also helps DevOps teams to deal with outages that may happen.  
